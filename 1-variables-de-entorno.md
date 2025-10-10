@@ -34,6 +34,13 @@ No se esta ejecutando
 ```
 docker logs Mysql-web
 ```
+<img width="1384" height="299" alt="image" src="https://github.com/user-attachments/assets/9580883b-981d-4c74-9d7c-a2a85bd54349" />
+
+### Contenedor creado con la variable de entorno MYSQL_ROOT_PASSWORD
+
+```
+docker run -P -d --name Mysql-web1 -e MYSQL_ROOT_PASSWORD=1234 mysql
+```
 
 ### Para crear un contenedor con variables de entorno especificadas
 - Portabilidad: Las aplicaciones se vuelven más portátiles y pueden ser desplegadas en diferentes entornos (desarrollo, pruebas, producción) simplemente cambiando el archivo de variables de entorno.
@@ -44,7 +51,11 @@ docker logs Mysql-web
 
 ### ¿Qué bases de datos existen en el contenedor creado?
 # COMPLETAR
+
 ```
+docker exec -it Mysql-web1 bash
+mysql -u root -p
 show databases;
 ```
+<img width="502" height="292" alt="image" src="https://github.com/user-attachments/assets/2ca80cab-aebf-42a3-929d-de1b7eab0fc0" />
 
