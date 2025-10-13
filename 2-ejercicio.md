@@ -52,5 +52,6 @@ CREATE TABLE personas (
 ```
 ### Realizar un select *from personas
 # AGREGAR UNA CAPTURA DE PANTALLA DEL RESULTADO
-<img width="942" height="238" alt="image" src="https://github.com/user-attachments/assets/d3804029-75ce-4d01-9aab-7a542e97176c" />
+<img width="995" height="240" alt="image" src="https://github.com/user-attachments/assets/60b98154-e43d-44ee-9983-b3aa712d6bb0" />
+
 
