@@ -41,7 +41,8 @@ CREATE TABLE personas (
   nombre VARCHAR(100)
 );
 ```
-<img width="767" height="124" alt="image" src="https://github.com/user-attachments/assets/e54ba7fe-44c4-427b-9a14-61c9ba6f1dc8" />
+<img width="805" height="293" alt="image" src="https://github.com/user-attachments/assets/b400fa38-dd7a-42b5-8d66-b109bd6dadeb" />
+
 
 ## Desde el servidor postgresl
 ### Acceder al servidor
@@ -52,6 +53,7 @@ CREATE TABLE personas (
 ```
 ### Realizar un select *from personas
 # AGREGAR UNA CAPTURA DE PANTALLA DEL RESULTADO
-<img width="995" height="240" alt="image" src="https://github.com/user-attachments/assets/60b98154-e43d-44ee-9983-b3aa712d6bb0" />
+<img width="783" height="179" alt="image" src="https://github.com/user-attachments/assets/c64776ae-070c-446f-86da-9136c5f13d43" />
+
 
 
