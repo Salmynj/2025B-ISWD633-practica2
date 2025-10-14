@@ -7,6 +7,8 @@
 ### Crear el contenedor mysql a partir de la imagen mysql:8, configurar las variables de entorno necesarias
 # COMPLETAR
 
+docker run -d --name contenedor-mysql -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_ALLOW_EMPTY_PASSWORD=admin -e MYSQL_RANDOM_ROOT_PASSWORD=admin -p 9300:80 mysql:8
+
 ### Crear el contenedor wordpress a partir de la imagen: wordpress, configurar las variables de entorno necesarias
 # COMPLETAR
 
