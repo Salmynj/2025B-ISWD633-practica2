@@ -30,11 +30,18 @@ recordar que a es el puerto que usó para el mapeo con wordpress
 
 ### Eliminar el contenedor wordpress
 # COMPLETAR
+```
+docker rm -f Wordpress
+```
+<img width="555" height="111" alt="image" src="https://github.com/user-attachments/assets/58da2698-79b3-4c2f-8bc1-61db9756f505" />
 
 ### Crear nuevamente el contenedor wordpress
 Ingresar a: http://localhost:9300/ 
 recordar que a es el puerto que usó para el mapeo con wordpress
+<img width="1891" height="902" alt="image" src="https://github.com/user-attachments/assets/7f3dbb30-475d-4ee9-be82-3ab3e3f5b713" />
 
 ### ¿Qué ha sucedido, qué puede observar?
 # COMPLETAR
-
+```
+En comparación con mi publicación anterior, con la actual se borroó la información y solo se mantuvo el nombre del sitio.
+```
