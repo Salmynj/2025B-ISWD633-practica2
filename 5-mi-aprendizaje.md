@@ -4,6 +4,13 @@ Si solucionó un problema presentado al realizar la práctica también se debe d
 
 Consultar: Cómo se gestionan datos confidenciales con los secretos de Docker (Docker Secrets).
 
+### Aprendizaje 
+Aprendí a conectar contenedores a una red mediante la creación de una network. 
+```
+docker network create net-wp
+```
+también reforzé añgunos comandos de docker por ejemplo la diferencia de docker ps -a con docker ps 
+
 # Consulta 
 **Cómo se gestionan datos confidenciales con los secretos de Docker (Docker Secrets).** 
 
